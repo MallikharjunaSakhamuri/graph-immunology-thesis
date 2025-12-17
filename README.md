@@ -3,7 +3,7 @@
 This repository contains an implementation summary and reproducible code for my PhD thesis, which was submitted in partial fulfilment of the requirements for the degree of **Doctor of Philosophy** at **Atlantic Technological University (ATU), Donegal, Ireland**.
 
 **Author:** Mallikharjuna Rao Sakhamuri  
-**Supervisors:** Dr. Shagufta Henna, Dr. Leo Creedon, Dr. Kevin Meehan  
+<!-- **Supervisors:** Dr. Shagufta Henna, Dr. Leo Creedon, Dr. Kevin Meehan  -->
 **Submission:** December 2025
 
 ## Overview
