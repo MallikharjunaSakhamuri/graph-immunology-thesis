@@ -1,0 +1,53 @@
+IDGL Graph Structure Analysis
+============================
+
+Graph Metrics:
+  Initial Graph: 1485 edges, 55 communities
+  Learned Graph: 237 edges, 55 communities
+  Edge Change: -84.0%
+
+Connection Patterns:
+  Initial Graph:
+    Peptide-Peptide: 153 edges (10.3%)
+    Peptide-HLA: 666 edges (44.8%)
+    HLA-HLA: 666 edges (44.8%)
+
+  Learned Graph:
+    Peptide-Peptide: 42 edges (17.7%)
+    Peptide-HLA: 62 edges (26.2%)
+    HLA-HLA: 133 edges (56.1%)
+
+Community Analysis:
+  Initial Graph: 1 communities
+    Community 1: 55 nodes (18 peptide, 37 HLA)
+
+  Learned Graph: 12 communities
+    Community 2: 11 nodes (5 peptide, 6 HLA)
+    Community 5: 2 nodes (1 peptide, 1 HLA)
+    Community 6: 3 nodes (2 peptide, 1 HLA)
+    Community 7: 1 nodes (1 peptide, 0 HLA)
+    Community 10: 10 nodes (5 peptide, 5 HLA)
+    Community 8: 3 nodes (3 peptide, 0 HLA)
+    Community 11: 13 nodes (1 peptide, 12 HLA)
+    Community 1: 2 nodes (0 peptide, 2 HLA)
+    Community 4: 2 nodes (0 peptide, 2 HLA)
+    Community 12: 3 nodes (0 peptide, 3 HLA)
+    Community 3: 4 nodes (0 peptide, 4 HLA)
+    Community 9: 1 nodes (0 peptide, 1 HLA)
+
+IDGL Impact Analysis:
+  Key Observations:
+  - Peptide-HLA interactions: -604 change (-90.7%)
+  - Community structure: +11 communities
+  - Average edge weight: -11.5% change
+
+  Top 5 strongest connections in learned graph:
+    Peptide node 0 - Peptide node 0: weight = 1.000
+    Peptide node 0 - Peptide node 1: weight = 1.000
+    Peptide node 0 - Peptide node 8: weight = 1.000
+    Peptide node 0 - HLA node 35: weight = 1.000
+    Peptide node 0 - HLA node 47: weight = 1.000
+
+Conclusion:
+  IDGL has refined the graph structure by removing less relevant connections,
+  focusing on the most important peptide-HLA interactions.
